@@ -19,7 +19,7 @@ html, body{
       background-color: #4C7F6E;
 }
 h1{
-    font-size: 6.854rem;
+    font-size: 5.5rem;
     /* ADD the Google serif font to this font stack */
     font-family: Lora, 'Palatino Linotype', 'Book Antiqua', Palatino, serif; 
     padding: 1rem 2rem;
