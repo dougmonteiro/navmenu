@@ -71,14 +71,11 @@ header{
             border: solid #97FFDC;
             border-width: 0.2rem 0.5rem;
             text-decoration: none;
-        },
-        .menu-h a:link,
-        .menu-h a:visited
-        .menu-h a:hover{ 
-            background-color: #4C7F6E; 
+        }
+        .menu-h a:hover{
+            background-color: #4C7F6E;
             color: #97FFDC;
-        } ,
-        .menu-h a:active
+        }
 .menu-v{
     width: 20%;
     float:left;
@@ -92,19 +89,15 @@ header{
         display: block;
         width: 100%;
     }
-        /* style the anchors to fill the entire width of the li */            
-        .menu-v a,
-        .menu-v a:link,
-        .menu-v a:visited
-        .menu-v a:hover{
-            font-style: italic;
-            text-decoration: none;
-            color: #4C7F6E;
-            padding: 0 20%;
-            border: solid #4C7F6E;
-            border-radius: 2px;
-},
-        .menu-v a:active
+        /* style the anchors to fill the entire width of the li */
+    .menu-v a:hover{
+        font-style: italic;
+        text-decoration: none;
+        color: #4C7F6E;
+        padding: 0 20%;
+        border: solid #4C7F6E;
+        border-radius: 2px;
+    }
 main{
     width:80%;
     float: right;
