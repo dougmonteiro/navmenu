@@ -52,6 +52,7 @@ header{
 .menu-h{
     width: 100%;
     text-align: center;
+    
 }
     .menu-h li{
         /* style the list items to remove the bullets 
@@ -71,6 +72,7 @@ header{
             border: solid #97FFDC;
             border-width: 0.2rem 0.5rem;
             text-decoration: none;
+            color: #4C7F6E;
         }
         .menu-h a:visited{
             color: #31A77F;
@@ -93,9 +95,12 @@ header{
         display: block;
         width: 100%;
     }
-        /* style the anchors to fill the entire width of the li */
+    /* style the anchors to fill the entire width of the li */
+    .menu-v a{
+        color: #4C7F6E;
+    }    
     .menu-v a:visited{
-        color: #3CCC9C;
+        color: #31A77F;
     }
     .menu-v a:hover{
         font-style: italic;
