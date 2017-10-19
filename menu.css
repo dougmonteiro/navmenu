@@ -62,6 +62,8 @@ header{
         width: 20%;
         float: left;
     }
+        /* style the anchors to fill the entire width of the li 
+            make sure there is padding around your text */
         .menu-h a{
             margin: 0 2%;
             padding: 0 18%;
@@ -71,17 +73,12 @@ header{
             text-decoration: none;
         },
         .menu-h a:link,
-        .menu-h a:visited{
-            /* style the anchors to fill the entire width of the li 
-            make sure there is padding around your text */
-        }
+        .menu-h a:visited
         .menu-h a:hover{ 
             background-color: #4C7F6E; 
             color: #97FFDC;
         } ,
-        .menu-h a:active{
-            
-        }
+        .menu-h a:active
 .menu-v{
     width: 20%;
     float:left;
@@ -95,11 +92,10 @@ header{
         display: block;
         width: 100%;
     }
+        /* style the anchors to fill the entire width of the li */            
         .menu-v a,
         .menu-v a:link,
-        .menu-v a:visited{
-            /* style the anchors to fill the entire width of the li */            
-        }
+        .menu-v a:visited
         .menu-v a:hover{
             font-style: italic;
             text-decoration: none;
@@ -108,9 +104,7 @@ header{
             border: solid #4C7F6E;
             border-radius: 2px;
 },
-        .menu-v a:active{
-            
-        }
+        .menu-v a:active
 main{
     width:80%;
     float: right;
