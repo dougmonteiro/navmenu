@@ -72,10 +72,14 @@ header{
             border-width: 0.2rem 0.5rem;
             text-decoration: none;
         }
+        .menu-h a:visited{
+            color: #31A77F;
+        }
         .menu-h a:hover{
             background-color: #4C7F6E;
             color: #97FFDC;
         }
+        
 .menu-v{
     width: 20%;
     float:left;
@@ -90,6 +94,9 @@ header{
         width: 100%;
     }
         /* style the anchors to fill the entire width of the li */
+    .menu-v a:visited{
+        color: #3CCC9C;
+    }
     .menu-v a:hover{
         font-style: italic;
         text-decoration: none;
@@ -98,6 +105,7 @@ header{
         border: solid #4C7F6E;
         border-radius: 2px;
     }
+
 main{
     width:80%;
     float: right;
